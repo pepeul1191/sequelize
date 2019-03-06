@@ -6,6 +6,10 @@ Usar eslint
 
     $ eslint yourfile.js
 
+Dump base de datos:
+
+    $ mysqldump -u root -p locations > db/locations.sql
+
 ---
 
 Fuentes:
