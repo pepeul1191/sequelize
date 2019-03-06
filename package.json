@@ -4,14 +4,16 @@
   "description": "",
   "private": true,
   "dependencies": {
-    "sequelize": "^4.19.0",
-    "mysql": "^2.16.0"
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.19.0"
   },
   "devDependencies": {
-    "eslint": "^5.15.1"
+    "eslint": "^5.15.1",
+    "jasmine": "^3.3.1"
   },
   "scripts": {
-    "start": "node src/demo.js"
+    "start": "node src/demo.js",
+    "test": "jasmine"
   },
   "keywords": [],
   "author": "",
